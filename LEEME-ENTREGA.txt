@@ -1,0 +1,30 @@
+PROYECTO PARROQUIA — AVANCE AL 14 DE SEPTIEMBRE DE 2026
+
+Our Lady of Guadalupe Catholic Church Mendota
+Mendota, California | +1 559-655-4237
+Párroco: Jorge Alberto Robles Cuevas
+
+Incluye código fuente, dependencias declaradas y archivo de bloqueo,
+migraciones PostgreSQL, pruebas, scripts y documentación.
+Último avance: inglés por defecto, selector English / Español con preferencia
+persistente, interfaz y mensajes traducidos. Los importes siguen en USD.
+El contenido editorial futuro requiere sus propias traducciones.
+
+PARA CONTINUAR
+1. Extraer la carpeta parroquia-mendota.
+2. Leer README.md y docs/CREAR-CUENTAS.md.
+3. Instalar Node.js compatible con package.json y ejecutar npm run install:ci.
+4. Copiar .env.example a .env.local y configurar los servicios siguiendo las guías.
+5. Ejecutar npm run dev.
+
+PENDIENTES
+Crear y conectar Supabase y Stripe; configurar los demás servicios y aprobar
+las políticas antes de habilitar registros y pagos. Añadir horarios, dirección
+postal y contenidos reales. Las pruebas locales no sustituyen las pruebas
+reales de esas integraciones.
+
+No incluye claves privadas, .env.local, node_modules, historial Git ni cachés.
+Las dependencias y la compilación se regeneran con los comandos del README.
+Tampoco incluye datos remotos ni copias de cuentas de proveedores externos.
+
+Sitio privado: https://comunidad-parroquial-pwp.nogordastec.chatgpt.site
